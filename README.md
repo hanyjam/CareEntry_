@@ -76,6 +76,4 @@ VITE_API_URL=https://api.careentry.ageisel.de
 
 ---
 
-## 📄 Lizenz
-
 Privates Studienprojekt – keine kommerzielle Nutzung vorgesehen.
