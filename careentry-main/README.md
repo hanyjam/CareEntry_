@@ -1,0 +1,3 @@
+![CareEntry Logo](/care-entry.png)
+
+To be continued ...
