@@ -70,22 +70,6 @@ Ein modernes Full-Stack-Projekt zur Digitalisierung von Arztpraxen. Entwickelt a
 - ❌ Anamnese-Speicherung im Backend (aktuell nur localStorage)
 - ❌ Dokumenten-Upload ans Backend (aktuell nur localStorage-Simulation)
 
-### Features (nicht implementiert)
-- ❌ Passwort-Reset-Flow ("Passwort vergessen")
-- ❌ Impressum/Datenschutz-Seite (nur PDF verlinkt)
-- ❌ Termin-Management (bewusst aus Scope genommen, siehe Pflichtenheft)
-- ❌ Echtzeit-Benachrichtigungen (WebSockets)
-- ❌ Token-Refresh-Mechanismus (Token läuft nach Ablauf ab → manueller Re-Login)
-
-### Technische Schulden
-- ⚠️ Kein TypeScript (nachträglich empfohlen)
-- ⚠️ JWT im localStorage (XSS-Risiko, httpOnly Cookies wären sicherer)
-- ⚠️ Test-Coverage ~65% (Ziel: >80%)
-- ⚠️ Keine E2E-Tests (nur Unit-Tests)
-- ⚠️ Kein Error-Tracking (Sentry) im Betrieb
-- ⚠️ Accessibility (WCAG) nicht vollständig auditiert
-- ⚠️ 2-Faktor-Authentifizierung nicht implementiert
-
 ---
 
 ## 🛠️ Tech-Stack
